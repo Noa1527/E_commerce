@@ -1,0 +1,32 @@
+@import '../../App.scss';
+
+.HomeContainer {
+    .row-wrap {
+        .HomeProductCard {
+            width: 75%;
+            margin: 30px auto;
+
+            .img-transition {
+                transition: all 500ms ease-out;
+
+                &:hover {
+                    border: 20px solid rgba(255, 255, 255, 0.5);
+                }
+            }
+
+            .HomeProductBtn {
+                width: 50%;
+                margin: 10px 0;
+                background-color: $btn_color_primary;
+                border: 1px solid $blue_primary_color;
+                transition: all 500ms ease;
+
+                &:hover {
+                    color: #FFF;
+                    background-color: $bg_color_primary;
+                    border-radius: 0.3rem;
+                }
+            }
+        }
+    }
+}

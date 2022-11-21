@@ -1,0 +1,15 @@
+.comments-overflow {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 90%;
+}
+.comments-overflow .comment-container {
+  padding: 20px;
+  width: 50%;
+  margin: 10px auto;
+  background-color: #f5f5f5;
+}
+.comments-overflow .comment-container span {
+  font-size: 20px;
+  color: #000;
+}/*# sourceMappingURL=Comment.css.map */

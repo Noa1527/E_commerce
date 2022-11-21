@@ -1,0 +1,54 @@
+/* Footer */
+.main-footer {
+  border-top: 2px solid gray;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+  height: 25%;
+  background-color: #f5F5F5;
+  color: #17014C;
+}
+.main-footer .container-footer {
+  height: 100%;
+  width: 100%;
+}
+.main-footer .container-footer .row-footer {
+  height: 90%;
+}
+.main-footer .container-footer .row-footer .logo {
+  width: 10%;
+  height: 70%;
+}
+.main-footer .container-footer .row-footer .footer-col {
+  padding: 0 10px;
+  height: 100%;
+}
+.main-footer .container-footer .row-footer .footer-col .flex-wrap-icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80px;
+  margin: 5px auto;
+}
+.main-footer .container-footer .row-footer .footer-col .col-question {
+  line-height: 18px;
+}
+.main-footer .container-footer .row-footer .footer-col .col-question p, .main-footer .container-footer .row-footer .footer-col .col-question a {
+  font-size: 12px;
+  font-weight: 400;
+}
+.main-footer .container-footer .row-footer .footer-col .col-question a {
+  text-decoration: none;
+  color: inherit;
+}
+.main-footer .container-footer .footer-bottom {
+  height: 10%;
+  margin-bottom: 5px auto;
+  padding: 10px auto;
+}
+.main-footer .container-footer .footer-bottom .text-xs-center {
+  font-size: 12px;
+  margin-bottom: 0;
+}/*# sourceMappingURL=footer.css.map */

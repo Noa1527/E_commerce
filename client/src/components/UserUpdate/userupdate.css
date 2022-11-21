@@ -1,0 +1,96 @@
+.content__userupdate {
+  margin: 30px auto;
+  padding: 30px;
+  height: 533px;
+  width: 700px;
+}
+.content__userupdate h1 {
+  color: #f1f1f1;
+  font-size: 30px;
+  font-family: "Helvetica Neue";
+  font-weight: bold;
+  width: 90%;
+  margin: 0 auto;
+}
+.content__userupdate .update {
+  display: flex;
+  align-items: center;
+}
+.content__userupdate .email__update,
+.content__userupdate .password__update {
+  background: #F5F5F5;
+  margin: 20px auto;
+  padding: 10px;
+  height: 70px;
+  width: 90%;
+  transition: all 400ms ease;
+  cursor: pointer;
+}
+.content__userupdate .email__update a,
+.content__userupdate .password__update a {
+  text-decoration: none;
+  color: #000;
+}
+.content__userupdate .email__update p,
+.content__userupdate .password__update p {
+  color: #000;
+  margin-bottom: 0;
+}
+.content__userupdate .email__update p strong,
+.content__userupdate .password__update p strong {
+  color: #000;
+  font-size: 20px;
+  margin-right: 2rem;
+}
+.content__userupdate .delete__user {
+  background: #dc3545;
+  margin: 20px auto;
+  padding: 10px;
+  height: 70px;
+  width: 90%;
+  transition: all 400ms ease;
+  cursor: pointer;
+}
+.content__userupdate .delete__user a {
+  text-decoration: none;
+  color: #F5F5F5;
+}
+.content__userupdate .delete__user p {
+  color: #F5F5F5;
+  margin-bottom: 0;
+}
+.content__userupdate .delete__user p strong {
+  color: #F5F5F5;
+  font-size: 20px;
+  margin-right: 2rem;
+}
+
+.formmailupdate {
+  display: grid;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.formpassupdate {
+  display: grid;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container-delete {
+  height: 80%;
+  justify-content: space-between;
+  text-align: center;
+}
+.container-delete .content-text-delete {
+  height: 85%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-delete .content-text-delete p {
+  width: 70%;
+  font-size: 20px;
+  font-weight: bold;
+  color: #f1f1f1;
+}/*# sourceMappingURL=userupdate.css.map */

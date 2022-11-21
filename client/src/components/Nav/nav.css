@@ -1,0 +1,145 @@
+.router {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.55);
+}
+
+#search img {
+  padding: 3px;
+  position: relative;
+  top: 0%;
+  width: 140%;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+.nav-logo {
+  width: 60px;
+}
+
+.nav-logo img {
+  width: 90%;
+}
+
+.form__search__container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.form__search__container .form__search {
+  width: 95%;
+  margin: 0 auto;
+  height: 100%;
+}
+.form__search__container .form__search .searchContent {
+  background-color: #F0F2F5;
+  display: grid;
+  width: 1285px;
+  max-height: 200%;
+  overflow: scroll;
+}
+.form__search__container .form__search .searchContent .resultTxt {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+.form__search__container .form__search .searchContent .resultList {
+  border-bottom: solid 2px black;
+  margin-top: 5px;
+  height: 35px;
+}
+.form__search__container .form__search .searchContent .resultList:hover {
+  background-color: white;
+}
+.form__search__container .form__search .searchContent .searchPrice {
+  margin-left: 40px;
+  font-weight: bolder;
+}
+.form__search__container .form__search .flex__form {
+  background-color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.form__search__container .form__search .flex__form .closeBtn {
+  margin-right: auto;
+  width: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  background-color: #F0F2F5;
+  cursor: pointer;
+}
+.form__search__container .form__search .flex__form > input {
+  background: #F0F2F5;
+  padding-left: 20px;
+}
+.form__search__container .form__search .flex__form input {
+  width: 87%;
+  height: 100%;
+}
+
+.popup__content {
+  width: 100%;
+}
+.popup__content .cartItem {
+  padding-right: 30px;
+  color: white;
+  border-bottom: solid 1px white;
+}
+.popup__content .cartItem h6 {
+  padding-top: 10px;
+  font-weight: 700;
+}
+.popup__content .cartItem img {
+  background-color: #17014C;
+}
+.popup__content .cartItem .cart-button {
+  width: 100%;
+}
+.popup__content .cartItem .cart-button button {
+  background: none;
+  width: 24px;
+  height: 25%;
+  margin-left: 20px;
+}
+.popup__content .text__popup__panier {
+  color: #F0F2F5;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.popup__content .text__popup__panier a {
+  text-decoration: none;
+  color: #F0F2F5;
+}
+.popup__content .text__popup {
+  color: #F0F2F5;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 500ms ease;
+}
+.popup__content .text__popup:hover {
+  background-color: #F0F2F5;
+  color: #17014C;
+}
+.popup__content .text__popup .p__popup {
+  margin-top: 15px;
+  text-align: center;
+}
+.popup__content .text__popup .p__popup a {
+  width: 100%;
+  height: 100%;
+  padding: 15px 80px;
+  text-decoration: none;
+  color: #F0F2F5;
+}
+.popup__content .text__popup .p__popup a:hover {
+  color: #17014C;
+}/*# sourceMappingURL=nav.css.map */

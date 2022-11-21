@@ -1,0 +1,18 @@
+@import '../App.scss';
+@import './pages/home.scss';
+@import './pages/profile.scss';
+@import './pages/payment.scss';
+@import './pages/cart.scss';
+@import './pages/comments.scss';
+
+.block__nav{
+    height: 80px;
+}
+.content {
+    background-color: $bg_color_primary;
+    width: 100vw;
+
+    .style__container {
+        width: 100%;
+    }
+}

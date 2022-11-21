@@ -1,0 +1,177 @@
+.router {
+    text-decoration: none;
+    color: rgba(0, 0, 0, .55);
+}
+
+#search img {
+    padding: 3px;
+    position: relative;
+    top: 0%;
+    width: 140%;
+    border: solid 1px black;
+    border-radius: 10px;
+}
+
+.nav-logo {
+    width: 60px;
+}
+
+.nav-logo img {
+    width: 90%;
+}
+
+//======================= SearchBar =======================//
+.form__search__container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+
+    .form__search {
+        width: 95%;
+        margin: 0 auto;
+        height: 100%;
+
+        .searchContent {
+            background-color: #F0F2F5;
+            display: grid;
+            width: 1285px;
+            max-height: 200%;
+            overflow: scroll;
+
+            .resultTxt {
+                text-decoration: none;
+                list-style: none;
+                color: inherit;
+            }
+
+            .resultList {
+                border-bottom: solid 2px black;
+                margin-top: 5px;
+                height: 35px;
+            }
+
+            .resultList:hover {
+                background-color: white;
+            }
+
+            .searchPrice {
+                margin-left: 40px;
+                font-weight: bolder;
+            }
+        }
+
+        .flex__form {
+            background-color: white;
+            width: 85%;
+            height: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            // margin-right: 60px;
+
+            .closeBtn {
+                // margin-right: 40px;
+                margin: 0;
+                width: 10%;
+                height: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                background-color: #F0F2F5;
+                cursor: pointer;
+            }
+
+            &>input {
+                background: #F0F2F5;
+                padding-left: 20px;
+            }
+
+            input {
+                width: 87%;
+                height: 100%;
+            }
+        }
+    }
+}
+
+//======================= InThePopup =======================//
+.popup__content {
+    width: 100%;
+
+    .cartItem {
+        padding-right: 30px;
+        color: white;
+        border-bottom: solid 1px white;
+
+        h6 {
+            padding-top: 10px;
+            font-weight: 700;
+        }
+
+        img {
+            background-color: #17014C;
+        }
+
+        .cart-button {
+            width: 100%;
+
+            button {
+                background: none;
+                width: 24px;
+                height: 25%;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .text__popup__panier {
+        // border-bottom: 1px solid #F0F2F5;
+        color: #F0F2F5;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: #F0F2F5;
+        }
+
+    }
+
+    .text__popup {
+        // border-bottom: 1px solid #F0F2F5;
+        color: #F0F2F5;
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 500ms ease;
+
+        &:hover {
+            background-color: #F0F2F5;
+            color: #17014C;
+        }
+
+        .p__popup {
+            margin-top: 15px;
+            text-align: center;
+
+            a {
+                width: 100%;
+                height: 100%;
+                padding: 15px 80px;
+                text-decoration: none;
+                color: #F0F2F5;
+
+                &:hover {
+                    color: #17014C;
+                }
+            }
+        }
+    }
+}

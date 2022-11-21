@@ -1,0 +1,103 @@
+.content__userupdate {
+    margin: 30px auto;
+    padding: 30px;
+    height: 533px;
+    width: 700px;
+
+    h1 {
+        color: #f1f1f1;
+        font-size: 30px;
+        font-family: 'Helvetica Neue';
+        font-weight: bold;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .update {
+        display: flex;
+        align-items: center;
+    }
+
+    .email__update,
+    .password__update {
+        background: #F5F5F5;
+        margin: 20px auto;
+        padding: 10px;
+        height: 70px;
+        width: 90%;
+        transition: all 400ms ease;
+        cursor: pointer;
+
+        a {
+            text-decoration: none;
+            color: #000;
+        }
+
+        p {
+            color: #000;
+            margin-bottom: 0;
+
+            strong {
+                color: #000;
+                font-size: 20px;
+                margin-right: 2rem;
+            }
+        }
+    }
+
+    .delete__user {
+        background: #dc3545;
+        margin: 20px auto;
+        padding: 10px;
+        height: 70px;
+        width: 90%;
+        transition: all 400ms ease;
+        cursor: pointer;
+
+        a {
+            text-decoration: none;
+            color: #F5F5F5;
+        }
+
+        p {
+            color: #F5F5F5;
+            margin-bottom: 0;
+
+            strong {
+                color: #F5F5F5;
+                font-size: 20px;
+                margin-right: 2rem;
+            }
+        }
+    }
+}
+
+.formmailupdate {
+    display: grid;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.formpassupdate {
+    display: grid;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.container-delete {
+    height: 80%;
+    justify-content: space-between;
+    text-align: center;
+    .content-text-delete {
+        height: 85%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        p{
+            width: 70%;
+            font-size: 20px;
+            font-weight: bold;
+            color: #f1f1f1;
+        }
+    }
+}

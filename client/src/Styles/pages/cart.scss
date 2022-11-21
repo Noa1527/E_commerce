@@ -1,0 +1,95 @@
+@import '../../App.scss';
+$navbar_color: #F5F5F5;
+$btn_color_primary: #B794F6;
+
+
+.container-cart {
+    height: 69vh;
+    overflow: scroll;
+
+    .panier-container{
+
+        .header-cart{
+            margin-top: 20px;
+            color: #F5F5F5;
+            font-size: 30px;
+            text-align: center;
+        }
+        .items{
+            background-color: #F5F5F5;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            padding: 15px 50px;
+            height: 150px;
+            align-items: center;
+        }
+        .quantity-article{
+            span{
+                button{
+                    background: none;
+                    margin-left: 15px;
+                }
+            }
+        }
+        .img-article, .title-article, .quantity-article, .del-article{
+            text-align: center;
+        }
+        .img-article img{
+            max-width: 40%;
+        }
+        .del-article button{
+            background: none;
+        }
+    
+    }
+}
+
+
+.total {
+    background-color: #F5F5F5;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 15px 50px;
+    height: 150px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+
+    button{
+        width: 300px;
+        height: 60px;
+        font-size: 25px;
+        font-weight: 500;
+    }
+    button:hover{
+        background-color: $btn_color_primary;
+        transition: 0.5s;
+    }
+}
+
+.container-empty{
+    width: 100vw;
+    .row-empty {
+        height: 69vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        .empty{
+            background-color: #F5F5F5;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            height: 50%;
+            width: 50%;
+        display: flex;
+            
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+
+}
